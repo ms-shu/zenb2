@@ -1,0 +1,13 @@
+{
+  "name": "B2Prime Help Center Theme",
+  "author": "B2Prime Team",
+  "version": "1.0.0",
+  "defaultLocale": "en-us",
+  "assets": {
+    "style.css": true,
+    "script.js": true
+  },
+  "templates": {
+    "index_page.hbs": true
+  }
+}
