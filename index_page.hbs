@@ -1,0 +1,32 @@
+
+<div class="b2prime-hero">
+  <h1 class="hero-title">Welcome to B2Prime Help Center</h1>
+  <p class="hero-subtitle">Your questions answered. Your issues solved.</p>
+
+  <div class="hero-actions">
+    <a href="/hc/requests/new" class="btn-primary">🎫 Create a Ticket</a>
+    <a href="#" class="btn-secondary open-chat">💬 Open Chat</a>
+  </div>
+
+  <div class="search-box">
+    {{search}}
+  </div>
+</div>
+
+<div class="section-icons">
+  <a href="/hc/en-us/categories/dep" class="topic-item">💳 Deposits</a>
+  <a href="/hc/en-us/categories/withd" class="topic-item">💸 Withdrawals</a>
+  <a href="/hc/en-us/categories/kyc" class="topic-item">🧾 KYC</a>
+  <a href="/hc/en-us/categories/accounts" class="topic-item">👤 Account Types</a>
+  <a href="/hc/en-us/categories/deals" class="topic-item">📈 Deals</a>
+  <a href="/hc/en-us/categories/platform" class="topic-item">💻 Platform</a>
+</div>
+
+<div class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  {{#each promoted_articles}}
+    <div class="faq-item">
+      <a href="{{url}}">{{title}}</a>
+    </div>
+  {{/each}}
+</div>

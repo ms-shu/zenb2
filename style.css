@@ -1,0 +1,99 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0B0F0D;
+  color: #FFFFFF;
+}
+
+.b2prime-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(145deg, #0B0F0D, #101512);
+}
+
+.hero-title {
+  color: #8FFF9A;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-actions a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 24px;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #00D26A;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #00BA5E;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #00D26A;
+  border: 2px solid #00D26A;
+}
+
+.btn-secondary:hover {
+  background-color: #00D26A;
+  color: #fff;
+}
+
+.search-box {
+  margin-top: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #101512;
+}
+
+.topic-item {
+  display: block;
+  margin: 10px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  background-color: #1A1A1A;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.2s;
+}
+
+.topic-item:hover {
+  background-color: #2B2B2B;
+}
+
+.faq-section {
+  padding: 40px 20px;
+  background-color: #0B0F0D;
+}
+
+.faq-item a {
+  color: #00D26A;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.faq-item a:hover {
+  text-decoration: underline;
+}
